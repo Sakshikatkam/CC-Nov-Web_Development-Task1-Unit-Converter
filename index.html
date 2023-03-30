@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unit converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="converter">
+        <h1 class="title">Unit Converter</h1>
+
+        <ul>
+            <li>
+                <a href="">Length</a>
+            </li>
+            <li>
+                <a href="temp.html">Temperature</a>
+            </li>
+            <li>
+                <a href="area.html">Area</a>
+            </li>
+        </ul>
+        <br>
+        <br>
+        <label for="" class="in">INPUT</label>
+        <label for="" class="out">OUTPUT</label><br>
+
+        <input type="text" placeholder="From" id="input">
+        <span>=</span>
+
+
+        <input type="text" placeholder="To" id="output">
+
+        <select id="input-type">
+            <!-- <option disabled="disabled" selected="selected">Select Color</option> -->
+            <option value="meter">Metre</option>
+            <option value="kilometer">kilometre</option>
+            <option value="centimeter">Centimetre</option>
+            <option value="micrometer">Micrometre</option>
+            <option value="nanometer">Nanometre</option>
+            <option value="foot">Foot</option>
+            <option value="inch">Inch</option>
+
+        </select>
+
+        <select id="output-type">
+            <option value="meter">Metre</option>
+            <option value="kilometer">kilometre</option>
+            <option value="centimeter">Centimetre</option>
+            <option value="micrometer">Micrometre</option>
+            <option value="nanometer">Nanometre</option>
+            <option value="foot">Foot</option>
+            <option value="inch">Inch</option>
+        </select>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

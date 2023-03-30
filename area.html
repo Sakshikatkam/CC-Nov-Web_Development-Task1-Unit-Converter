@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unit converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="converter">
+        <h1 class="title">Area Converter</h1>
+        <ul>
+            <li>
+                <a href="index.html">Length</a>
+            </li>
+            <li>
+                <a href="temp.html">Temperature</a>
+            </li>
+            
+        </ul>
+        <br>
+        <br>
+        <label for="" class="in">INPUT</label>
+        <label for="" class="out">OUTPUT</label><br>
+
+        <input type="text" placeholder="From" id="input">
+        <span>=</span>
+
+
+        <input type="text" placeholder="To" id="output">
+
+        <select id="input-type">
+            <option value="squaremeter">Square Metre</option>
+            <option value="squarekilometer">Square Kilometer</option>
+            <option value="squarecentimeter">Square Centimeter</option>
+        </select>
+
+        <select id="output-type">
+            <option value="squaremeter">Square Metre</option>
+            <option value="squarekilometer">Square Kilometre</option>
+            <option value="squarecentimeter">Square Centimetre</option>
+        </select>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
